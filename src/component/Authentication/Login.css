@@ -1,0 +1,79 @@
+.bgi{
+    background-image: url("../../Img/login.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 96vh;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.wh{
+    font-size: 72px;
+    background: -webkit-linear-gradient(#cacb61, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+.wh1{
+    
+    background: -webkit-linear-gradient(#000000, #00e1ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.sa {
+    background: linear-gradient(
+        to right,
+        #7953cd 20%,
+        #00affa 30%,
+        #0190cd 70%,
+        #ffae00 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+
+.log{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 25px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
+
+@media only screen and (max-width: 600px) {
+.bgi{
+    border-radius: 10px;
+    height: 50vh;
+    
+}
+
+.btte{
+    
+    font-size: 1rem !important;
+    width: 77vw !important;
+    margin-top: 12px !important ;
+    /* margin-left:1px !important; */
+    /* text-align: justify !important ; */
+}
+.lm{
+    width: 100% !important;
+}
+}
